@@ -4,7 +4,6 @@ class QuestionsController < ApplicationController
 
   def answer
     @input = params[:answer]
-    raise
     @answer = ""
 
     if @input == 'I am going to work right now!'
