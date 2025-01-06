@@ -1,0 +1,8 @@
+<h1 class= "Title" >Stupid Coaching</h1>
+
+<p>Ask yout coach anything:</p>
+
+<form action="/answer" data-turbo="false" method="get" id="input">
+  <input type="text" name="answer" value="<%= params[:answer] %>">
+  <input type="submit" value="Ask!">
+</form>

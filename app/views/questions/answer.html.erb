@@ -1,0 +1,13 @@
+<h1 class= "Title" >Stupid Coaching</h1>
+
+
+<div class="alert alert-light mt-4" role="alert">
+  <%= @input %>
+  <em>- You</em>
+</div>
+<div class="alert alert-warning" role="alert">
+  <%= @answer %>
+  <em>- Your Coach</em>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
